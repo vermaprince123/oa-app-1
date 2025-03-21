@@ -1,0 +1,64 @@
+.home-appliance-section {
+    padding: 50px 20px;
+    text-align: left;
+  }
+  
+  .home-appliance-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #00264d;
+    padding-left: 20px;
+  }
+  
+  .home-appliance-cards {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-left: 20px;
+  }
+  
+  .home-appliance-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 20px;
+    width: 300px;
+    height: 80px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .home-appliance-card .home-appliance-card-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #000080;
+    border-radius: 5px;
+  }
+  
+  .home-appliance-card .home-appliance-card-content {
+    flex-grow: 1;
+  }
+
+  .home-appliance-card-content{
+    margin-left: 20px;
+  }
+  
+  .home-appliance-card .home-appliance-card-title {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: #00264d;
+  }
+  
+  .home-appliance-card .home-appliance-card-description {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .home-appliance-card .home-appliance-card-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4CAF50;
+  }
