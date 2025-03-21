@@ -10,6 +10,8 @@ import CurrentOffers from './Components/CurrentOffers/CurrentOffers'
 import PopularInCity from './Components/PopularInCity/PopularInCity'
 import WhyChooseOA from './Components/WhyChooseOA/WhyChooseOA'
 import Testimonials from './Components/Testimonials/Testimonials'
+import FAQ from './Components/FAQ/Faq'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,8 @@ function App() {
       <PopularInCity />
       <WhyChooseOA />
       <Testimonials />
+      <FAQ />
+      <Footer />
     </>
   )
 }
