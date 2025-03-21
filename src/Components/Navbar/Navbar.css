@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000080; /* Dark blue */
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .search-container input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .pincode-container {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .pincode-container input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .login-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Icons (using blue boxes/circles as requested) */
+  .search-icon, .location-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #000080; /* Dark blue */
+    display: inline-block;
+    border-radius: 3px; /* Slightly rounded corners for box-like appearance */
+  }
+  
+  .location-icon {
+    border-radius: 50%; /* Circle for location icon */
+  }

@@ -1,0 +1,42 @@
+.hero-section {
+    background: linear-gradient(to right, #00264d, #001a33); /* Dark blue gradient */
+    color: white;
+    text-align: left;
+    padding: 100px 50px; /* Adjust padding as needed */
+  }
+  
+  .hero-content {
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .explore-button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .trust-text {
+    font-size: 1em;
+    color: #ccc;
+  }
